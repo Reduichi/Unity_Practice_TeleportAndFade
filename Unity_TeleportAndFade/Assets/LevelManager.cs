@@ -36,13 +36,5 @@ public class LevelManager : MonoBehaviour
         // 載入下一關
         SceneManager.LoadScene("第二關");
         // 迴圈
-
-        for (int i = 0; i < 50; i++)
-        {
-            imgCross.color -= new Color(0, 0, 0, 0.02f); 
-            yield return new WaitForSeconds(0.001f);
-
-        }
-
     }
 }
